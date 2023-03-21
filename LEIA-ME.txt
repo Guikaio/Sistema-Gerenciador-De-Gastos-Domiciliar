@@ -1,0 +1,46 @@
+LINK DO REPOSITÓRIO DO TRABALHO NO GITHUB
+	
+
+COMO USAR:
+
+	DEPENDÊNCIAS:
+	1 - Python3 (de preferência em sua versão mais recente)
+	2 - Biblioteca json 
+		  Utilizada para trabalhar com arquivos no formato JSON (JavaScript Object Notation), que é uma forma de armazenar os dados inseridos dentro da carteira de gastos
+	3 - Biblioteca datetime
+		Utilizada para trabalhar com datas e horários nos onde a data e horario da despesa inserida pelo usuario ficara armazenada. 
+	
+	
+	TUTORIAL e MENU:
+	Basta escolher as opções de acordo com o que for disposto no "MENU".
+		1 - Listar Gastos
+ 			As depesas que foram adcionadas serão exibidas ao selecionar essa opção.
+ 		2 - Adcionar Despesas
+ 			Voce podera adcionar as despesas desejadas dentro ao selecionar essa opção.
+ 		3 - Deletar Despesas
+ 			Voce podera deletar as despesas selecionadas pelo nome da mesma ao selecionar essa opção, 
+ 	  	4- Editar Despesas 
+			Voce podera editar as despesas selecionadas pelo nome, podendo modificar o preço, nome e data da mesma.
+		5- Soma das Despesas
+			Voce podera somar todas as despesas presentes na lista de gastos
+		6- Calcula o saldo atual
+			Voce pode calcular seu saldo atual com base nas despesas presentes na sua carteira de gasto, voce pode inserir o seu saldo e o programa ira fazer o calculo de diferença com as despesas. 
+ 			
+		7- Sair
+			Sai do programa e salva a carteira de gastos atualizada com base nas despesas inseridas.
+	
+	ARQUIVOS:
+		O arquivo JSON é criado quando se insere alguma despesa, e o mesmo é responsavel por armazena-las e é utilizado para exibilas quando a opção 1 for selecionada.
+	
+	
+	TESTES "testes_Gerenciador.PY":
+		Como executar: Utilize o comando:  python -m unittest -v no terminal onde se encontram os arquivos de teste e ele os executara.
+		Nesse arquivo estão inclusos os testes unitarios dos metodos utilizados na execução do sistema de gerenciamento de gastos domiciliar, onde os testes unitarios de cada um dos metodos é realizado.
+		
+		
+ 
+ 
+	DOCUMENTAÇÃO: A documentação do sistema, está inclusa dentro do arquivo em formato PDF, nela se encontram o documento de especificação de requisitos e o Projeto Arquitetural do mesmo.
+
+
+	
